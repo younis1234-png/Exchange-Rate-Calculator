@@ -1,0 +1,17 @@
+// FETCH IS USED TO MAKE A HTTP REQUEST*****
+// first we create a JSON file
+// we can either have JSON OBJECT OR ARRAY
+// JSON object => {"id": 1, "text": "Item One"}
+// JSON array =. [ {"id": 1, "text": "Item One"}, {"id": 1, "text": "Item Two"} {"id": 1, "text": "Item Three"}]
+
+function calculate() {
+  // there is different type of HTTP request
+  //  1. get request, 2. post request, 3. post request, delete request
+  //   fetch("item.json") IT RUNS IN THE BACKEND AND IT RETURN A PROMISE, AND TO CATCH THE PROMISE WE ADD .then()
+  //   catch the promise and give us a RESPOND RES THIS IS HAD TO BE AN FUNCTION
+  //   fetch("item.json")
+  //     .then((res) => res.json())
+  //     // we get out json array fom our ITEM.JSON file with the
+  //     .then((data) => console.log(data));
+}
+calculate();
